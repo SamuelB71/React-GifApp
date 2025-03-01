@@ -19,13 +19,14 @@ export const GifGrid = ({category}) => {
       {/* <h2 className={isLoading}>Cargando...</h2> */}
 
 
+      <h3>{category}</h3>
+      {
+        isLoading ? (<h2>Cargando...</h2>) : null
+      }
+      
       <div className="card-grid">
         
-        <h3>{category}</h3>
         {/* no funciona */}
-        {/* {
-          isLoading ? (<h2>Cargando...</h2>) : null
-        } */}
         <ol>
           {images.map( (image) => (
             <GifItem
