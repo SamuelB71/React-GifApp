@@ -27,8 +27,6 @@
     font-size: 3rem;
     width: 100%;
     margin-bottom: 5px;
-    margin: right 100%; ;
-    padding-right: 100%;
   }
   
   .card-grid {   columns: 5 320px;   column-gap: 1em; }
